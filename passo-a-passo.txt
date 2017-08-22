@@ -1,0 +1,43 @@
+15/08/2017
+Criando projeto node e configurando para ES6,
+instalando nodemon e outras configurações
+1) npm i --global nodemon(monitor de execucao node)
+npm i --global babel-cli
+OBS - passo 1 somente uma vez,
+pré-requisito:
+  *nodejs
+  *cmder ou powershell
+  *Editor de texto favorito(vscode, atom, sublime-text...)
+2) mkdir PASTA_DO_PROJETO(criar pasta de projeto node)
+3) cd PASTA(entrar na pasta)
+4) npm init (Iniciar projeto node)
+5) Criar arquivo entry/main(index.js)
+6) Criar arquivo .babelrc na pasta do projeto com o texto:
+{
+  "presets": ["es2015"]
+}
+7) No terminal, na pasta do projeto instalar o babel-preset-es2015:
+npm i --save-dev babel-preset-es2015
+8) Criar dois diretórios:
+src(onde vai ficar os fontes do projeto)
+dist(onde vai ser TRANSPILADO o código final)
+9) Mover nosso index.js para src.
+10) Configuar os Scrits de execução do projeto dentro do arquivo package.js
+"scripts": {
+  "dev": "nodemon --exec babel-node ./src/index.js",
+  "build": "babel --presets es2015 src -d dist",
+  "server": "node dist/index.js"
+}
+11) Parar usar algum dos scripts execute o comando npm run NOME_DO_SCRIPT:
+exemplo: npm run dev
+
+12) conteúdo do index.js(npm i cpf-check):
+import CPF from 'cpf-check'
+console.log('VALIDANDO CPF...')
+const cpf = '00523123321'
+const validacao = CPF.validate(cpf)
+console.log('Validação:', validacao)
+
+aula 22/08/2017
+Material sobre Imports e Exports (Javascript ECMA2015/ES6)
+link: https://hackernoon.com/import-export-default-require-commandjs-javascript-nodejs-es6-vs-cheatsheet-different-tutorial-example-5a321738b50f
