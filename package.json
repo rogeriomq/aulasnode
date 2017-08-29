@@ -11,7 +11,8 @@
   "author": "Rogério M. de Queiroz",
   "license": "MIT",
   "dependencies": {
-    "cpf-check": "^1.1.4"
+    "cpf-check": "^1.1.4",
+    "hapi": "^16.5.2"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1"

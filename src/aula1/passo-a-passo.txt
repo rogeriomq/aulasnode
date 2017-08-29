@@ -1,5 +1,5 @@
 LINK GITHUB:
-https://github.com/rogeriomq/aulasnodejs
+https://github.com/rogeriomq/aulasnode
 
 15/08/2017
 Criando projeto node e configurando para ES6,
