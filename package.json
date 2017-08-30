@@ -11,8 +11,10 @@
   "author": "Rogério M. de Queiroz",
   "license": "MIT",
   "dependencies": {
+    "blipp": "^2.3.0",
     "cpf-check": "^1.1.4",
-    "hapi": "^16.5.2"
+    "hapi": "^16.5.2",
+    "hapi-router": "^3.5.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1"
