@@ -12,9 +12,12 @@
   "license": "MIT",
   "dependencies": {
     "blipp": "^2.3.0",
+    "boom": "^5.2.0",
     "cpf-check": "^1.1.4",
     "hapi": "^16.5.2",
     "hapi-router": "^3.5.0",
+    "inert": "^4.2.1",
+    "joi": "^11.0.2",
     "lodash.deburr": "^4.1.0",
     "sqlite-sync": "^0.3.6"
   },
