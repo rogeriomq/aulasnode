@@ -1,0 +1,11 @@
+ATIVIDADE AVALIATIVA - NOTA DA P1
+1) DE ACORDO COM O projetonode(aula5) crie/adicione os serviços:
+  a - Buscar herói baseado em seu ID;
+  b - Deletar herói baseado em seu id. Utilize o JOI para verificar se o id passado no payload é: 
+        NÚMERO, INTEIRO e POSITIVO;
+2) APRESENTAR UM TRABALHO SOBRE:
+  grupo A (Kaique, Joao Rafael, Marllon, Bornieque, Samuel) - restify
+  grupo B (Luso, Monica, Andréia, Gustavo, Lucas) - express
+  destaquem: Vantagens/Desvantagens, rotas, trechos de código de inicalização, plugins/middlewares e 
+  ao final apresentem um projeto semelhante ao aula5.
+

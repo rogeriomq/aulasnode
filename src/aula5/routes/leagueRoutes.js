@@ -32,7 +32,7 @@ export default [
       description: 'Salvar herói no banco de dados.',
       validate: {
         payload: {
-          ID: Joi.number().integer().positive().optional().allow(null),
+          ID: Joi.number().integer().positive().optional().allow(null ),
           NAMEINT: Joi.string().max(100).min(2).required(),
           NAMEBR: Joi.string().max(100).min(2).optional().allow(null),
           CIVILNAME: Joi.string().max(100).min(2).optional().allow(null),
