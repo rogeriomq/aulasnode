@@ -15,6 +15,7 @@
     "boom": "^5.2.0",
     "cpf-check": "^1.1.4",
     "hapi": "^16.5.2",
+    "hapi-auth-basic": "^4.2.0",
     "hapi-router": "^3.5.0",
     "inert": "^4.2.1",
     "joi": "^11.0.2",
