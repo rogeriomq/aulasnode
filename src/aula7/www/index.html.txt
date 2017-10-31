@@ -1,0 +1,9 @@
+<html>
+<title>PLUGIN INERT</title>
+<body>
+  <h1>PAGINA EXEMPLO</h1>
+  <h3>Utilizando o plugin inert:</h3>
+  <h4>Instalação:</h4>
+  <div><span>npm install inert</span></div>
+</body>
+</html>

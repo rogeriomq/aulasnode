@@ -14,6 +14,7 @@
     "blipp": "^2.3.0",
     "boom": "^5.2.0",
     "cpf-check": "^1.1.4",
+    "dotenv": "^4.0.0",
     "hapi": "^16.5.2",
     "hapi-auth-basic": "^4.2.0",
     "hapi-router": "^3.5.0",
